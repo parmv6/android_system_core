@@ -233,6 +233,7 @@ static struct fs_path_config android_files[] = {
     { 00555, AID_ROOT,      AID_ROOT,      "system/etc/ppp/*" },
     { 00555, AID_ROOT,      AID_ROOT,      "system/etc/rc.*" },
     { 00755, AID_ROOT,      AID_ROOT,      "system/addon.d/*" },
+    { 00644, AID_SYSTEM,    AID_SYSTEM,    "system/etc/paranoid/properties.conf" },
     { 00644, AID_SYSTEM,    AID_SYSTEM,    "data/app/*" },
     { 00644, AID_MEDIA_RW,  AID_MEDIA_RW,  "data/media/*" },
     { 00644, AID_SYSTEM,    AID_SYSTEM,    "data/app-private/*" },
