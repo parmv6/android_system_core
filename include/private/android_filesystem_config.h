@@ -65,6 +65,9 @@
 #ifdef QCOM_FM_ENABLED
 #define AID_FM_RADIO      1029  /* FM radio */
 #endif
+#define AID_AUDIT         1031  /* audit daemon */
+
+#define AID_THEMEMAN      1300  /* theme manager */
 
 #define AID_SHELL         2000  /* adb and debug shell user */
 #define AID_CACHE         2001  /* cache access */
@@ -180,6 +183,8 @@ static const struct android_id_info android_ids[] = {
     { "fm_radio",  AID_FM_RADIO, },
 #endif
     { "nobody",    AID_NOBODY, },
+    { "theme_man", AID_THEMEMAN },
+    { "audit",      AID_AUDIT, },
 };
 
 #define android_id_count \
